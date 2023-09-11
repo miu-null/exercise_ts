@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev" : "npx nodemon -q"
+    "start:dev": "npx nodemon -q"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.161",
     "@types/node": "^20.5.6",
+    "@types/webgl2": "^0.0.7",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescipt": "^1.0.0"
